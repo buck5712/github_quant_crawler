@@ -1,0 +1,35 @@
+name: GitHub Quant Repo Crawler
+
+on:
+  schedule:
+    - cron: '0 1 * * 1'   # 每週一 01:00 UTC(約台灣時間週一 09:00)
+  workflow_dispatch: {}    # 允許在 Actions 頁面手動觸發
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run crawler
+        run: python crawler.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "chore: update crawled repo data ($(date -u +'%Y-%m-%d'))"
+          git push

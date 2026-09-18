@@ -1,0 +1,25 @@
+# 篩選條件設定 — 依需求調整即可,不用改程式碼
+
+search:
+  min_stars: 50          # star 數門檻
+  max_days_since_push: 180   # 最近活躍度:多少天內要有 push 才算活躍
+
+  # topics 比對(GitHub repo 上標的 topic 標籤)
+  topics:
+    - quantitative-trading
+    - algorithmic-trading
+    - quant-finance
+    - quantitative-finance
+    - trading-bot
+    - backtesting
+    - trading-strategy
+
+  # 關鍵字比對(比對 repo 名稱、描述、README)
+  keywords:
+    - "quant trading"
+    - "algorithmic trading"
+    - "quantitative finance"
+    - "trading strategy backtest"
+
+  per_page: 50            # 每個查詢抓幾筆(GitHub 上限 100)
+  max_pages_per_query: 2  # 每個查詢最多翻幾頁
