@@ -1,5 +1,40 @@
 [
   {
+    "id": 1214061488,
+    "full_name": "gameworkerkim/vibe-investing",
+    "html_url": "https://github.com/gameworkerkim/vibe-investing",
+    "description": "AI-powered Vibe Investing for NASDAQ, S&P500 & crypto: LLM quant trading tools, multi-agent backtesting, and data-driven market columns (mNAV arbitrage, BTC-Nasdaq coupling, Alpha Arena). 미국 주식·가상화폐 AI 투자 큐레이션·칼럼·트레이딩 봇.",
+    "stars": 334,
+    "forks": 99,
+    "open_issues": 0,
+    "topics": [
+      "agentic-ai",
+      "ai-search",
+      "algorithmic-trading-dotnet",
+      "backtesting",
+      "bitcoin",
+      "claude",
+      "cryptocurrency",
+      "cryptocurrency-analyser",
+      "defi",
+      "earnings-momentum",
+      "earnings-surprise",
+      "financial-llm",
+      "llm",
+      "multi-agent",
+      "quantitative-trading",
+      "sentiment-analysis",
+      "stock-market",
+      "stock-screening",
+      "trading-bot"
+    ],
+    "language": "HTML",
+    "pushed_at": "2026-09-21T03:15:44Z",
+    "last_checked": "2026-09-21",
+    "is_new": false,
+    "first_seen": "2026-09-21"
+  },
+  {
     "id": 1025018999,
     "full_name": "randomwalkhan/Short-Term-Reversal-Strategy",
     "html_url": "https://github.com/randomwalkhan/Short-Term-Reversal-Strategy",
@@ -19,35 +54,9 @@
       "systematic-trading"
     ],
     "language": "Jupyter Notebook",
-    "pushed_at": "2026-09-21T01:36:41Z",
+    "pushed_at": "2026-09-21T03:12:52Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
-    "first_seen": "2026-09-21"
-  },
-  {
-    "id": 320566331,
-    "full_name": "enarjord/passivbot",
-    "html_url": "https://github.com/enarjord/passivbot",
-    "description": "Trading bot running on Bybit, Bitget, OKX, GateIO, Binance, Kucoin, WEEX and Hyperliquid",
-    "stars": 2106,
-    "forks": 677,
-    "open_issues": 82,
-    "topics": [
-      "algorithmic-trading",
-      "binance",
-      "bitget",
-      "bybit",
-      "futures",
-      "gateio",
-      "hyperliquid",
-      "okx",
-      "perpetual-futures",
-      "trading"
-    ],
-    "language": "Python",
-    "pushed_at": "2026-09-21T01:32:42Z",
-    "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -55,9 +64,9 @@
     "full_name": "freqtrade/freqtrade",
     "html_url": "https://github.com/freqtrade/freqtrade",
     "description": "Free, open source crypto trading bot",
-    "stars": 54609,
-    "forks": 11322,
-    "open_issues": 40,
+    "stars": 54613,
+    "forks": 11324,
+    "open_issues": 43,
     "topics": [
       "algorithmic-trading",
       "bitcoin",
@@ -70,37 +79,69 @@
       "trading-bot"
     ],
     "language": "Python",
-    "pushed_at": "2026-09-21T01:29:48Z",
+    "pushed_at": "2026-09-21T03:03:56Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
-    "id": 440341534,
-    "full_name": "Ooples-Finance-LLC/OoplesFinance.StockIndicators",
-    "html_url": "https://github.com/Ooples-Finance-LLC/OoplesFinance.StockIndicators",
-    "description": "Largest C# stock indicator library with over 750 to choose from and easiest to use with abilities such as making an indicator out of any other indicator or using any moving average with any indicator. ",
-    "stars": 254,
-    "forks": 71,
-    "open_issues": 4,
+    "id": 1280164540,
+    "full_name": "benbenbang/libitofin",
+    "html_url": "https://github.com/benbenbang/libitofin",
+    "description": "High-performance quantitative finance library in Rust: pricing, risk, and numerical tools built for speed and safety.",
+    "stars": 57,
+    "forks": 4,
+    "open_issues": 34,
     "topics": [
-      "backtesting",
       "finance",
-      "indicator",
-      "indicators",
-      "nuget",
-      "nuget-package",
-      "stock",
-      "stock-analysis",
-      "stock-indicators",
-      "stock-trading",
-      "technical-analysis",
-      "technical-indicators"
+      "go",
+      "python",
+      "quant",
+      "quantitative-finance",
+      "quantlib",
+      "rust",
+      "trade"
     ],
-    "language": "C#",
-    "pushed_at": "2026-09-21T01:27:41Z",
+    "language": "Rust",
+    "pushed_at": "2026-09-21T02:56:32Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
+    "first_seen": "2026-09-21"
+  },
+  {
+    "id": 1329705938,
+    "full_name": "agentpit-io/hunter-community",
+    "html_url": "https://github.com/agentpit-io/hunter-community",
+    "description": "HunterCode · Community Edition · 腾讯 WorkBuddy 金融版的开源本地替代方案 · open-source, local alternative to Tencent WorkBuddy Finance Edition · 多智能体投研终端 A股/港股/美股 · 推理在你机器上跑 · 仓位不出你硬盘 · BYOK · Apache 2.0 · docker compose 自托管",
+    "stars": 538,
+    "forks": 72,
+    "open_issues": 22,
+    "topics": [
+      "ai-agents",
+      "ai-hedge-fund",
+      "ai-quant",
+      "anthropic",
+      "byok",
+      "claude-code",
+      "docker-compose",
+      "financial-ai",
+      "fintech",
+      "investment-research",
+      "llm-agent",
+      "local-first",
+      "mcp",
+      "multi-agent",
+      "opencode",
+      "quantitative-trading",
+      "self-hosted",
+      "stock-analysis",
+      "stock-market",
+      "workbuddy-alternative"
+    ],
+    "language": "Python",
+    "pushed_at": "2026-09-21T02:51:49Z",
+    "last_checked": "2026-09-21",
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -134,9 +175,188 @@
       "tradingview"
     ],
     "language": "C++",
-    "pushed_at": "2026-09-21T01:22:26Z",
+    "pushed_at": "2026-09-21T02:44:24Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
+    "first_seen": "2026-09-21"
+  },
+  {
+    "id": 294371636,
+    "full_name": "Lumiwealth/lumibot",
+    "html_url": "https://github.com/Lumiwealth/lumibot",
+    "description": "AI agents that actually place the trade. 12 brokers, real backtests, stocks options futures forex crypto and prediction markets.",
+    "stars": 2077,
+    "forks": 402,
+    "open_issues": 90,
+    "topics": [
+      "ai-agents",
+      "algorithmic-trading",
+      "alpaca",
+      "backtesting",
+      "broker",
+      "crypto-trading",
+      "finance",
+      "forex",
+      "fred",
+      "futures-trading",
+      "interactive-brokers",
+      "llm-agents",
+      "multi-agent",
+      "options-trading",
+      "python",
+      "quantitative-finance",
+      "sec-filings",
+      "stocks",
+      "technical-analysis",
+      "trading-bot"
+    ],
+    "language": "Python",
+    "pushed_at": "2026-09-21T02:34:18Z",
+    "last_checked": "2026-09-21",
+    "is_new": false,
+    "first_seen": "2026-09-21"
+  },
+  {
+    "id": 1344908058,
+    "full_name": "fqgate/FQGate-agent",
+    "html_url": "https://github.com/fqgate/FQGate-agent",
+    "description": "同花顺免费开源AI插件FQGate-agent（原插件名 tonghuasun-agent）：为 Codex、Claude Code、DeepSeek 等 AI 工具提供本机 A 股实时行情、K 线、Level-2、资讯、账户查询与可选交易能力。",
+    "stars": 216,
+    "forks": 58,
+    "open_issues": 6,
+    "topics": [
+      "a-share",
+      "ai-agent",
+      "ai-plugin",
+      "china-stock",
+      "claude-code",
+      "codex",
+      "deepseek",
+      "fqgate",
+      "kline",
+      "level-2",
+      "local-first",
+      "market-data",
+      "mcp",
+      "mcp-apps",
+      "mcp-server",
+      "quantitative-trading",
+      "stock-data",
+      "stock-market",
+      "tonghuashun",
+      "tonghuasun-agent"
+    ],
+    "language": "HTML",
+    "pushed_at": "2026-09-21T02:27:04Z",
+    "last_checked": "2026-09-21",
+    "is_new": false,
+    "first_seen": "2026-09-21"
+  },
+  {
+    "id": 906020235,
+    "full_name": "cloudQuant/backtrader",
+    "html_url": "https://github.com/cloudQuant/backtrader",
+    "description": "High-performance Python backtesting & live-trading framework: 45%+ faster than upstream, 50+ indicators, tick-to-daily strategies, plus an AI-native workflow (MCP server, agent skills, web platform).",
+    "stars": 184,
+    "forks": 43,
+    "open_issues": 0,
+    "topics": [
+      "algorithmic-trading",
+      "backtesting",
+      "cryptocurrency",
+      "data-analysis",
+      "finance",
+      "futures",
+      "indicators",
+      "live-trading",
+      "python",
+      "quant",
+      "quantitative-finance",
+      "stocks",
+      "technical-analysis",
+      "trading",
+      "trading-strategies"
+    ],
+    "language": "Python",
+    "pushed_at": "2026-09-21T02:16:44Z",
+    "last_checked": "2026-09-21",
+    "is_new": false,
+    "first_seen": "2026-09-21"
+  },
+  {
+    "id": 320566331,
+    "full_name": "enarjord/passivbot",
+    "html_url": "https://github.com/enarjord/passivbot",
+    "description": "Trading bot running on Bybit, Bitget, OKX, GateIO, Binance, Kucoin, WEEX and Hyperliquid",
+    "stars": 2106,
+    "forks": 677,
+    "open_issues": 81,
+    "topics": [
+      "algorithmic-trading",
+      "binance",
+      "bitget",
+      "bybit",
+      "futures",
+      "gateio",
+      "hyperliquid",
+      "okx",
+      "perpetual-futures",
+      "trading"
+    ],
+    "language": "Python",
+    "pushed_at": "2026-09-21T01:51:42Z",
+    "last_checked": "2026-09-21",
+    "is_new": false,
+    "first_seen": "2026-09-21"
+  },
+  {
+    "id": 301345449,
+    "full_name": "c9s/bbgo",
+    "html_url": "https://github.com/c9s/bbgo",
+    "description": "The modern cryptocurrency trading bot framework written in Go.",
+    "stars": 1662,
+    "forks": 382,
+    "open_issues": 129,
+    "topics": [
+      "binance",
+      "bitcoin",
+      "crypto",
+      "cryptocurrency",
+      "trading",
+      "trading-bot"
+    ],
+    "language": "Go",
+    "pushed_at": "2026-09-21T01:48:22Z",
+    "last_checked": "2026-09-21",
+    "is_new": false,
+    "first_seen": "2026-09-21"
+  },
+  {
+    "id": 440341534,
+    "full_name": "Ooples-Finance-LLC/OoplesFinance.StockIndicators",
+    "html_url": "https://github.com/Ooples-Finance-LLC/OoplesFinance.StockIndicators",
+    "description": "Largest C# stock indicator library with over 750 to choose from and easiest to use with abilities such as making an indicator out of any other indicator or using any moving average with any indicator. ",
+    "stars": 254,
+    "forks": 71,
+    "open_issues": 4,
+    "topics": [
+      "backtesting",
+      "finance",
+      "indicator",
+      "indicators",
+      "nuget",
+      "nuget-package",
+      "stock",
+      "stock-analysis",
+      "stock-indicators",
+      "stock-trading",
+      "technical-analysis",
+      "technical-indicators"
+    ],
+    "language": "C#",
+    "pushed_at": "2026-09-21T01:27:41Z",
+    "last_checked": "2026-09-21",
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -144,7 +364,7 @@
     "full_name": "wilsonfreitas/awesome-quant",
     "html_url": "https://github.com/wilsonfreitas/awesome-quant",
     "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
-    "stars": 29672,
+    "stars": 29671,
     "forks": 4017,
     "open_issues": 72,
     "topics": [
@@ -172,29 +392,7 @@
     "language": "HTML",
     "pushed_at": "2026-09-21T01:20:29Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
-    "first_seen": "2026-09-21"
-  },
-  {
-    "id": 301345449,
-    "full_name": "c9s/bbgo",
-    "html_url": "https://github.com/c9s/bbgo",
-    "description": "The modern cryptocurrency trading bot framework written in Go.",
-    "stars": 1662,
-    "forks": 382,
-    "open_issues": 129,
-    "topics": [
-      "binance",
-      "bitcoin",
-      "crypto",
-      "cryptocurrency",
-      "trading",
-      "trading-bot"
-    ],
-    "language": "Go",
-    "pushed_at": "2026-09-21T01:17:04Z",
-    "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -230,7 +428,7 @@
     "language": "Java",
     "pushed_at": "2026-09-21T00:56:39Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -257,7 +455,7 @@
     "language": "TypeScript",
     "pushed_at": "2026-09-21T00:44:05Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -292,7 +490,7 @@
     "language": "HTML",
     "pushed_at": "2026-09-21T00:40:52Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -314,7 +512,7 @@
     "language": "Cython",
     "pushed_at": "2026-09-21T00:33:16Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -322,7 +520,7 @@
     "full_name": "stefan-jansen/machine-learning-for-trading",
     "html_url": "https://github.com/stefan-jansen/machine-learning-for-trading",
     "description": "Code for Machine Learning for Trading, 3rd edition — from data sourcing to live execution.",
-    "stars": 20951,
+    "stars": 20952,
     "forks": 5627,
     "open_issues": 1,
     "topics": [
@@ -348,7 +546,7 @@
     "language": "Jupyter Notebook",
     "pushed_at": "2026-09-21T00:32:30Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -356,8 +554,8 @@
     "full_name": "simonlin1212/TradingAgents-astock",
     "html_url": "https://github.com/simonlin1212/TradingAgents-astock",
     "description": "A股多Agent投研框架 — 适配A股数据源(龙虎榜/游资/解禁等)，7位分析师基于A股规则的辩论决策，基于TradingAgents深度改造，适配大A。A-share multi-agent investment research framework — 7 AI analysts, bull/bear debate, risk assessment。",
-    "stars": 3388,
-    "forks": 875,
+    "stars": 3389,
+    "forks": 876,
     "open_issues": 0,
     "topics": [
       "a-share",
@@ -376,7 +574,7 @@
     "language": "Python",
     "pushed_at": "2026-09-21T00:30:21Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -402,7 +600,7 @@
     "language": "C++",
     "pushed_at": "2026-09-21T00:11:34Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -435,7 +633,7 @@
     "language": "Python",
     "pushed_at": "2026-09-20T23:59:12Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -458,7 +656,7 @@
     "language": "HTML",
     "pushed_at": "2026-09-20T23:59:00Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -494,38 +692,7 @@
     "language": "HTML",
     "pushed_at": "2026-09-20T23:58:45Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
-    "first_seen": "2026-09-21"
-  },
-  {
-    "id": 906020235,
-    "full_name": "cloudQuant/backtrader",
-    "html_url": "https://github.com/cloudQuant/backtrader",
-    "description": "High-performance Python backtesting & live-trading framework: 45%+ faster than upstream, 50+ indicators, tick-to-daily strategies, plus an AI-native workflow (MCP server, agent skills, web platform).",
-    "stars": 184,
-    "forks": 43,
-    "open_issues": 0,
-    "topics": [
-      "algorithmic-trading",
-      "backtesting",
-      "cryptocurrency",
-      "data-analysis",
-      "finance",
-      "futures",
-      "indicators",
-      "live-trading",
-      "python",
-      "quant",
-      "quantitative-finance",
-      "stocks",
-      "technical-analysis",
-      "trading",
-      "trading-strategies"
-    ],
-    "language": "Python",
-    "pushed_at": "2026-09-20T23:56:41Z",
-    "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -533,8 +700,8 @@
     "full_name": "shy3130/tick-stock-panel",
     "html_url": "https://github.com/shy3130/tick-stock-panel",
     "description": "TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台  | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源",
-    "stars": 4842,
-    "forks": 1204,
+    "stars": 4844,
+    "forks": 1206,
     "open_issues": 12,
     "topics": [
       "a-stock",
@@ -561,7 +728,7 @@
     "language": "Python",
     "pushed_at": "2026-09-20T23:42:43Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -570,7 +737,7 @@
     "html_url": "https://github.com/Barca0412/Introduction-to-Quantitative-Finance",
     "description": "AI+金融（量化）：1.多因子股票量化框架开源教程 2.学界和业界的经典资料收录 3.AI + 金融的相关工作，包括LLM, Agent, benchmark(evaluation), etc.",
     "stars": 1759,
-    "forks": 186,
+    "forks": 187,
     "open_issues": 4,
     "topics": [
       "agent",
@@ -588,43 +755,7 @@
     "language": "Python",
     "pushed_at": "2026-09-20T23:10:53Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
-    "first_seen": "2026-09-21"
-  },
-  {
-    "id": 294371636,
-    "full_name": "Lumiwealth/lumibot",
-    "html_url": "https://github.com/Lumiwealth/lumibot",
-    "description": "AI agents that actually place the trade. 12 brokers, real backtests, stocks options futures forex crypto and prediction markets.",
-    "stars": 2077,
-    "forks": 402,
-    "open_issues": 90,
-    "topics": [
-      "ai-agents",
-      "algorithmic-trading",
-      "alpaca",
-      "backtesting",
-      "broker",
-      "crypto-trading",
-      "finance",
-      "forex",
-      "fred",
-      "futures-trading",
-      "interactive-brokers",
-      "llm-agents",
-      "multi-agent",
-      "options-trading",
-      "python",
-      "quantitative-finance",
-      "sec-filings",
-      "stocks",
-      "technical-analysis",
-      "trading-bot"
-    ],
-    "language": "Python",
-    "pushed_at": "2026-09-20T23:05:45Z",
-    "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -659,7 +790,7 @@
     "language": "Python",
     "pushed_at": "2026-09-20T22:37:59Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -689,7 +820,7 @@
     "language": "Python",
     "pushed_at": "2026-09-20T21:51:53Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -720,7 +851,7 @@
     "language": "Python",
     "pushed_at": "2026-09-20T20:07:36Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -749,7 +880,7 @@
     "language": "TypeScript",
     "pushed_at": "2026-09-20T20:03:17Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -785,7 +916,7 @@
     "language": "Python",
     "pushed_at": "2026-09-20T19:12:05Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -793,8 +924,8 @@
     "full_name": "fasiondog/hikyuu",
     "html_url": "https://github.com/fasiondog/hikyuu",
     "description": "Hikyuu Quant Framework 基于C++/Python的超高速开源量化交易研究框架，同时可基于策略部件进行资产重用，快速累积策略资产。",
-    "stars": 3518,
-    "forks": 832,
+    "stars": 3519,
+    "forks": 833,
     "open_issues": 4,
     "topics": [
       "algorithms-trading",
@@ -809,7 +940,7 @@
     "language": "C++",
     "pushed_at": "2026-09-20T18:14:58Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -832,43 +963,7 @@
     "language": "Jupyter Notebook",
     "pushed_at": "2026-09-20T17:55:26Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
-    "first_seen": "2026-09-21"
-  },
-  {
-    "id": 1344908058,
-    "full_name": "fqgate/FQGate-agent",
-    "html_url": "https://github.com/fqgate/FQGate-agent",
-    "description": "同花顺免费开源AI插件FQGate-agent（原插件名 tonghuasun-agent）：为 Codex、Claude Code、DeepSeek 等 AI 工具提供本机 A 股实时行情、K 线、Level-2、资讯、账户查询与可选交易能力。",
-    "stars": 216,
-    "forks": 58,
-    "open_issues": 6,
-    "topics": [
-      "a-share",
-      "ai-agent",
-      "ai-plugin",
-      "china-stock",
-      "claude-code",
-      "codex",
-      "deepseek",
-      "fqgate",
-      "kline",
-      "level-2",
-      "local-first",
-      "market-data",
-      "mcp",
-      "mcp-apps",
-      "mcp-server",
-      "quantitative-trading",
-      "stock-data",
-      "stock-market",
-      "tonghuashun",
-      "tonghuasun-agent"
-    ],
-    "language": "HTML",
-    "pushed_at": "2026-09-20T17:45:51Z",
-    "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -899,7 +994,7 @@
     "language": "Python",
     "pushed_at": "2026-09-20T17:32:46Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -929,7 +1024,7 @@
     "language": "Jupyter Notebook",
     "pushed_at": "2026-09-20T17:03:49Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -955,7 +1050,7 @@
     "language": "Shell",
     "pushed_at": "2026-09-20T16:34:45Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -987,7 +1082,7 @@
     "language": "Python",
     "pushed_at": "2026-09-20T16:11:46Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -995,8 +1090,8 @@
     "full_name": "TNT-Likely/PanWatch",
     "html_url": "https://github.com/TNT-Likely/PanWatch",
     "description": "盯盘侠 PanWatch · 自托管 AI 盯盘助手，集成 TradingAgents 多 Agent 投资决策 | A股/港股/美股实时监控、持仓管理、智能分析、全渠道推送",
-    "stars": 1086,
-    "forks": 239,
+    "stars": 1087,
+    "forks": 240,
     "open_issues": 62,
     "topics": [
       "a-share",
@@ -1023,7 +1118,7 @@
     "language": "Python",
     "pushed_at": "2026-09-20T15:32:22Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1057,7 +1152,7 @@
     "language": "Python",
     "pushed_at": "2026-09-20T15:25:41Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1088,7 +1183,7 @@
     "language": "Python",
     "pushed_at": "2026-09-20T14:42:11Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1096,8 +1191,8 @@
     "full_name": "OpenByteInc/QuantDinger",
     "html_url": "https://github.com/OpenByteInc/QuantDinger",
     "description": "Open-source AI Trading OS, agent trading, and vibe trading, with Jev System One integration. Research, build Python strategies, backtest, and paper/live trade across crypto, stocks, and forex. Launch your own multi-tenant trading SaaS with built-in user management, billing, payments, and settlement.",
-    "stars": 11839,
-    "forks": 2448,
+    "stars": 11846,
+    "forks": 2449,
     "open_issues": 41,
     "topics": [
       "agent",
@@ -1123,7 +1218,7 @@
     "language": "Python",
     "pushed_at": "2026-09-20T14:00:00Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1146,7 +1241,7 @@
     "language": "Python",
     "pushed_at": "2026-09-20T13:28:04Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1171,7 +1266,7 @@
     "language": "Jupyter Notebook",
     "pushed_at": "2026-09-20T13:11:23Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1179,7 +1274,7 @@
     "full_name": "hummingbot/hummingbot",
     "html_url": "https://github.com/hummingbot/hummingbot",
     "description": "Open source software that helps you create and deploy high-frequency crypto trading bots",
-    "stars": 20109,
+    "stars": 20110,
     "forks": 4949,
     "open_issues": 163,
     "topics": [
@@ -1206,7 +1301,7 @@
     "language": "Python",
     "pushed_at": "2026-09-20T12:13:41Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1242,7 +1337,7 @@
     "language": "Python",
     "pushed_at": "2026-09-20T11:54:53Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1268,42 +1363,7 @@
     "language": "TypeScript",
     "pushed_at": "2026-09-20T11:20:36Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
-    "first_seen": "2026-09-21"
-  },
-  {
-    "id": 1214061488,
-    "full_name": "gameworkerkim/vibe-investing",
-    "html_url": "https://github.com/gameworkerkim/vibe-investing",
-    "description": "AI-powered Vibe Investing for NASDAQ, S&P500 & crypto: LLM quant trading tools, multi-agent backtesting, and data-driven market columns (mNAV arbitrage, BTC-Nasdaq coupling, Alpha Arena). 미국 주식·가상화폐 AI 투자 큐레이션·칼럼·트레이딩 봇.",
-    "stars": 334,
-    "forks": 99,
-    "open_issues": 0,
-    "topics": [
-      "agentic-ai",
-      "ai-search",
-      "algorithmic-trading-dotnet",
-      "backtesting",
-      "bitcoin",
-      "claude",
-      "cryptocurrency",
-      "cryptocurrency-analyser",
-      "defi",
-      "earnings-momentum",
-      "earnings-surprise",
-      "financial-llm",
-      "llm",
-      "multi-agent",
-      "quantitative-trading",
-      "sentiment-analysis",
-      "stock-market",
-      "stock-screening",
-      "trading-bot"
-    ],
-    "language": "HTML",
-    "pushed_at": "2026-09-20T11:11:43Z",
-    "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1332,7 +1392,7 @@
     "language": "Jupyter Notebook",
     "pushed_at": "2026-09-20T10:47:12Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1358,7 +1418,7 @@
     "language": "Python",
     "pushed_at": "2026-09-20T10:37:06Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1384,7 +1444,7 @@
     "language": "C++",
     "pushed_at": "2026-09-20T10:05:46Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1405,7 +1465,7 @@
     "language": "HTML",
     "pushed_at": "2026-09-20T09:11:25Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1441,7 +1501,7 @@
     "language": "Rust",
     "pushed_at": "2026-09-20T09:03:48Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1467,7 +1527,7 @@
     "language": "Shell",
     "pushed_at": "2026-09-20T09:00:10Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1477,7 +1537,7 @@
     "description": "ultra low latency graph based stream processing framework",
     "stars": 223,
     "forks": 36,
-    "open_issues": 30,
+    "open_issues": 31,
     "topics": [
       "algorithmic-trading",
       "backtesting",
@@ -1503,7 +1563,7 @@
     "language": "Rust",
     "pushed_at": "2026-09-20T08:48:37Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1538,7 +1598,7 @@
     "language": "C#",
     "pushed_at": "2026-09-20T08:34:27Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1546,8 +1606,8 @@
     "full_name": "555cute/r20-quantum-trader",
     "html_url": "https://github.com/555cute/r20-quantum-trader",
     "description": "⚡ LLM-Native Self-Evolving Quantitative Trading Terminal & Execution Engine (Bloomberg-Style Dark Terminal + 6-Asset AI Brain)",
-    "stars": 219,
-    "forks": 71,
+    "stars": 220,
+    "forks": 72,
     "open_issues": 1,
     "topics": [
       "bloomberg-terminal",
@@ -1564,31 +1624,7 @@
     "language": "Python",
     "pushed_at": "2026-09-20T05:23:37Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
-    "first_seen": "2026-09-21"
-  },
-  {
-    "id": 1280164540,
-    "full_name": "benbenbang/libitofin",
-    "html_url": "https://github.com/benbenbang/libitofin",
-    "description": "High-performance quantitative finance library in Rust: pricing, risk, and numerical tools built for speed and safety.",
-    "stars": 57,
-    "forks": 4,
-    "open_issues": 36,
-    "topics": [
-      "finance",
-      "go",
-      "python",
-      "quant",
-      "quantitative-finance",
-      "quantlib",
-      "rust",
-      "trade"
-    ],
-    "language": "Rust",
-    "pushed_at": "2026-09-20T04:36:06Z",
-    "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1619,7 +1655,7 @@
     "language": "Go",
     "pushed_at": "2026-09-20T04:09:57Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1655,7 +1691,7 @@
     "language": "JavaScript",
     "pushed_at": "2026-09-20T03:34:13Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1663,7 +1699,7 @@
     "full_name": "initial-d/ml-quant-trading",
     "html_url": "https://github.com/initial-d/ml-quant-trading",
     "description": "PyTorch research stack for ML multi-factor trading: 213 factors, bias correction, portfolio optimization, and vectorized backtesting.",
-    "stars": 87,
+    "stars": 88,
     "forks": 36,
     "open_issues": 3,
     "topics": [
@@ -1691,7 +1727,7 @@
     "language": "Python",
     "pushed_at": "2026-09-20T03:17:21Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1721,7 +1757,7 @@
     "language": "Python",
     "pushed_at": "2026-09-20T00:36:31Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1754,7 +1790,7 @@
     "language": "C#",
     "pushed_at": "2026-09-20T00:25:36Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1790,7 +1826,7 @@
     "language": "C#",
     "pushed_at": "2026-09-19T23:26:25Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1798,7 +1834,7 @@
     "full_name": "rootSunc/CNEquity",
     "html_url": "https://github.com/rootSunc/CNEquity",
     "description": "中国 A 股数据基础设施。42 个日更数据集：行情、基本面、资金面、公告事件、指数行业、宏观与风险。行级溯源、PIT 语义、复权与历史成分内置，MCP 原生。自托管，零注册、零 API Token",
-    "stars": 268,
+    "stars": 269,
     "forks": 44,
     "open_issues": 2,
     "topics": [
@@ -1826,7 +1862,7 @@
     "language": "Python",
     "pushed_at": "2026-09-19T22:08:08Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1834,8 +1870,8 @@
     "full_name": "OpenBB-finance/OpenBB",
     "html_url": "https://github.com/OpenBB-finance/OpenBB",
     "description": "Open Data Platform for analysts, quants and AI agents.",
-    "stars": 73310,
-    "forks": 7587,
+    "stars": 73316,
+    "forks": 7588,
     "open_issues": 114,
     "topics": [
       "ai",
@@ -1855,7 +1891,7 @@
     "language": "Python",
     "pushed_at": "2026-09-19T21:44:06Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1891,7 +1927,7 @@
     "language": "Rust",
     "pushed_at": "2026-09-19T18:25:34Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1915,7 +1951,7 @@
     "language": "Jupyter Notebook",
     "pushed_at": "2026-09-19T17:14:51Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1923,8 +1959,8 @@
     "full_name": "HKUDS/Vibe-Trading",
     "html_url": "https://github.com/HKUDS/Vibe-Trading",
     "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-    "stars": 33737,
-    "forks": 5502,
+    "stars": 33740,
+    "forks": 5505,
     "open_issues": 55,
     "topics": [
       "ai-agent",
@@ -1941,7 +1977,7 @@
     "language": "Python",
     "pushed_at": "2026-09-19T17:10:12Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1971,7 +2007,7 @@
     "language": "Python",
     "pushed_at": "2026-09-19T16:50:52Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -1996,7 +2032,7 @@
     "language": "TypeScript",
     "pushed_at": "2026-09-19T16:12:30Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2005,7 +2041,7 @@
     "html_url": "https://github.com/ZhuLinsen/daily_stock_analysis",
     "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
     "stars": 65383,
-    "forks": 54686,
+    "forks": 54690,
     "open_issues": 46,
     "topics": [
       "a-stock",
@@ -2019,7 +2055,7 @@
     "language": "Python",
     "pushed_at": "2026-09-19T15:09:08Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2027,8 +2063,8 @@
     "full_name": "Fincept-Corporation/FinceptTerminal",
     "html_url": "https://github.com/Fincept-Corporation/FinceptTerminal",
     "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
-    "stars": 31858,
-    "forks": 4519,
+    "stars": 31861,
+    "forks": 4520,
     "open_issues": 9,
     "topics": [
       "ai-agents",
@@ -2052,7 +2088,7 @@
     "language": "C++",
     "pushed_at": "2026-09-19T12:41:43Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2077,43 +2113,7 @@
     "language": "Python",
     "pushed_at": "2026-09-19T11:15:07Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
-    "first_seen": "2026-09-21"
-  },
-  {
-    "id": 1329705938,
-    "full_name": "agentpit-io/hunter-community",
-    "html_url": "https://github.com/agentpit-io/hunter-community",
-    "description": "HunterCode · Community Edition · 腾讯 WorkBuddy 金融版的开源本地替代方案 · open-source, local alternative to Tencent WorkBuddy Finance Edition · 多智能体投研终端 A股/港股/美股 · 推理在你机器上跑 · 仓位不出你硬盘 · BYOK · Apache 2.0 · docker compose 自托管",
-    "stars": 538,
-    "forks": 72,
-    "open_issues": 22,
-    "topics": [
-      "ai-agents",
-      "ai-hedge-fund",
-      "ai-quant",
-      "anthropic",
-      "byok",
-      "claude-code",
-      "docker-compose",
-      "financial-ai",
-      "fintech",
-      "investment-research",
-      "llm-agent",
-      "local-first",
-      "mcp",
-      "multi-agent",
-      "opencode",
-      "quantitative-trading",
-      "self-hosted",
-      "stock-analysis",
-      "stock-market",
-      "workbuddy-alternative"
-    ],
-    "language": "Python",
-    "pushed_at": "2026-09-19T10:03:34Z",
-    "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2147,7 +2147,7 @@
     "language": "Python",
     "pushed_at": "2026-09-19T09:01:37Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2171,7 +2171,7 @@
     "language": "Python",
     "pushed_at": "2026-09-19T04:25:48Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2191,7 +2191,7 @@
     "language": "Rust",
     "pushed_at": "2026-09-19T03:53:08Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2227,7 +2227,7 @@
     "language": "Python",
     "pushed_at": "2026-09-19T00:04:39Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2259,7 +2259,7 @@
     "language": "Rust",
     "pushed_at": "2026-09-18T23:44:30Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2290,7 +2290,7 @@
     "language": "C#",
     "pushed_at": "2026-09-18T22:51:33Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2315,7 +2315,7 @@
     "language": "Python",
     "pushed_at": "2026-09-18T21:01:11Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2323,7 +2323,7 @@
     "full_name": "alsk1992/CloddsBot",
     "html_url": "https://github.com/alsk1992/CloddsBot",
     "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans    for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
-    "stars": 2811,
+    "stars": 2812,
     "forks": 342,
     "open_issues": 32,
     "topics": [
@@ -2351,7 +2351,7 @@
     "language": "TypeScript",
     "pushed_at": "2026-09-18T19:38:27Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2376,7 +2376,7 @@
     "language": "Kotlin",
     "pushed_at": "2026-09-18T18:10:39Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2412,7 +2412,7 @@
     "language": "Python",
     "pushed_at": "2026-09-18T17:48:17Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2429,7 +2429,7 @@
     "language": "C++",
     "pushed_at": "2026-09-18T14:59:44Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2459,7 +2459,7 @@
     "language": "Java",
     "pushed_at": "2026-09-18T14:04:06Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2482,7 +2482,7 @@
     "language": "MQL5",
     "pushed_at": "2026-09-18T11:32:38Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2513,7 +2513,7 @@
     "language": "Python",
     "pushed_at": "2026-09-18T11:13:19Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2535,7 +2535,7 @@
     "language": null,
     "pushed_at": "2026-09-18T10:13:43Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2557,7 +2557,7 @@
     "language": "Shell",
     "pushed_at": "2026-09-18T09:52:02Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2587,7 +2587,7 @@
     "language": "TypeScript",
     "pushed_at": "2026-09-18T06:43:13Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2613,7 +2613,7 @@
     "language": "Go",
     "pushed_at": "2026-09-18T06:19:34Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2634,7 +2634,7 @@
     "language": "Python",
     "pushed_at": "2026-09-18T01:30:26Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2664,7 +2664,7 @@
     "language": "Python",
     "pushed_at": "2026-09-17T20:38:03Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2699,7 +2699,7 @@
     "language": "TypeScript",
     "pushed_at": "2026-09-17T18:58:31Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2707,7 +2707,7 @@
     "full_name": "microsoft/qlib",
     "html_url": "https://github.com/microsoft/qlib",
     "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
-    "stars": 48693,
+    "stars": 48696,
     "forks": 7709,
     "open_issues": 480,
     "topics": [
@@ -2733,7 +2733,7 @@
     "language": "Python",
     "pushed_at": "2026-09-17T16:40:12Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2767,7 +2767,7 @@
     "language": "Python",
     "pushed_at": "2026-09-17T16:19:01Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2789,7 +2789,7 @@
     "language": "Go",
     "pushed_at": "2026-09-17T13:19:50Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2797,7 +2797,7 @@
     "full_name": "mirkovicdev/HFTENGINE",
     "html_url": "https://github.com/mirkovicdev/HFTENGINE",
     "description": "Replay console for hftbacktest market-making backtests: order book, queue position of every resting order, feed and order latency, fills and the raw feed from the collector, on real recorded Binance Futures data. Rust runner on the hftbacktest crate, text-mode dashboard. A backtester, not a trading bot.",
-    "stars": 224,
+    "stars": 225,
     "forks": 22,
     "open_issues": 0,
     "topics": [
@@ -2815,7 +2815,7 @@
     "language": "TypeScript",
     "pushed_at": "2026-09-17T12:47:25Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2845,7 +2845,7 @@
     "language": "Python",
     "pushed_at": "2026-09-17T11:20:31Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2867,7 +2867,7 @@
     "language": "Rust",
     "pushed_at": "2026-09-17T08:53:34Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2884,7 +2884,7 @@
     "language": "SWIG",
     "pushed_at": "2026-09-17T07:01:45Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2906,7 +2906,7 @@
     "language": "Vue",
     "pushed_at": "2026-09-17T04:36:35Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2930,7 +2930,7 @@
     "language": "Python",
     "pushed_at": "2026-09-16T14:53:55Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2945,7 +2945,7 @@
     "language": null,
     "pushed_at": "2026-09-16T13:50:12Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2970,7 +2970,7 @@
     "language": null,
     "pushed_at": "2026-09-16T13:46:56Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2991,7 +2991,7 @@
     "language": "Python",
     "pushed_at": "2026-09-16T12:27:16Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -2999,7 +2999,7 @@
     "full_name": "pseudo-longinus/quant-buddy-skills",
     "html_url": "https://github.com/pseudo-longinus/quant-buddy-skills",
     "description": "宽宝 QuantBuddy： 一整套面向Agent Invesment投资研究与决策的底层设施与能力的调用skill， 覆盖A股/港股/美股/期货/宏观/ETF的量化分析与计算。支持行情、估值、财务查询、选股筛选、因子计算、策略回测。A complete infrastructure for Agent based investment analysis and decision through skill calling. Including quant skill for A-share, HK & US stocks/futures/ETF/macro — market data, fundamentals, screening, factor & backtest.",
-    "stars": 190,
+    "stars": 191,
     "forks": 24,
     "open_issues": 0,
     "topics": [
@@ -3018,7 +3018,7 @@
     "language": "Python",
     "pushed_at": "2026-09-16T03:39:27Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -3054,7 +3054,7 @@
     "language": "C++",
     "pushed_at": "2026-09-16T01:48:32Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -3090,7 +3090,7 @@
     "language": "Rust",
     "pushed_at": "2026-09-15T21:36:52Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -3116,7 +3116,7 @@
     "language": "Python",
     "pushed_at": "2026-09-15T20:34:20Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -3139,7 +3139,7 @@
     "language": "C#",
     "pushed_at": "2026-09-15T17:35:10Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -3158,7 +3158,7 @@
     "language": "JavaScript",
     "pushed_at": "2026-09-15T15:13:31Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -3166,8 +3166,8 @@
     "full_name": "alpacahq/alpaca-mcp-server",
     "html_url": "https://github.com/alpacahq/alpaca-mcp-server",
     "description": "Alpaca’s official MCP Server lets you trade stocks, ETFs, crypto, and options, run data analysis, and build strategies in plain English directly from your favorite LLM tools and IDEs",
-    "stars": 976,
-    "forks": 314,
+    "stars": 977,
+    "forks": 315,
     "open_issues": 23,
     "topics": [
       "ai-trading",
@@ -3184,7 +3184,7 @@
     "language": "Python",
     "pushed_at": "2026-09-15T14:13:25Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -3192,9 +3192,9 @@
     "full_name": "HiThink-Tech/Financial-API",
     "html_url": "https://github.com/HiThink-Tech/Financial-API",
     "description": "同花顺官方 A股金融数据服务，提供股票实时行情、历史行情、财务报表、指数、板块、涨停等数据，适用于 AI Agent、量化研究和应用开发，支持 API、MCP、CLI 和 Python。Official Tonghuashun (HiThink) A-share financial data service providing real-time and historical stock market data, financial statements, indices, sectors and limit-up data for AI agents, quantitative research and application development.",
-    "stars": 3678,
+    "stars": 3684,
     "forks": 323,
-    "open_issues": 39,
+    "open_issues": 40,
     "topics": [
       "a-share",
       "ai-agent",
@@ -3210,7 +3210,7 @@
     "language": "TypeScript",
     "pushed_at": "2026-09-15T13:44:11Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -3238,7 +3238,7 @@
     "language": "Dockerfile",
     "pushed_at": "2026-09-15T13:12:45Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -3253,7 +3253,7 @@
     "language": "Python",
     "pushed_at": "2026-09-15T12:45:21Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -3289,7 +3289,7 @@
     "language": "TypeScript",
     "pushed_at": "2026-09-15T08:34:38Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -3306,7 +3306,7 @@
     "language": "C++",
     "pushed_at": "2026-09-15T08:30:55Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -3334,7 +3334,7 @@
     "language": "Python",
     "pushed_at": "2026-09-15T07:21:47Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -3365,7 +3365,7 @@
     "language": "JavaScript",
     "pushed_at": "2026-09-15T06:27:59Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -3385,7 +3385,7 @@
     "language": "Python",
     "pushed_at": "2026-09-15T03:21:30Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -3406,7 +3406,7 @@
     "language": "Jupyter Notebook",
     "pushed_at": "2026-09-15T01:55:06Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -3429,7 +3429,7 @@
     "language": "Python",
     "pushed_at": "2026-09-14T23:01:53Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -3465,7 +3465,7 @@
     "language": "Jupyter Notebook",
     "pushed_at": "2026-09-14T21:44:39Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -3499,7 +3499,7 @@
     "language": "Go",
     "pushed_at": "2026-09-14T20:50:25Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -3514,7 +3514,7 @@
     "language": "Python",
     "pushed_at": "2026-09-14T19:11:26Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -3547,7 +3547,7 @@
     "language": "Python",
     "pushed_at": "2026-09-14T16:20:57Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -3578,7 +3578,7 @@
     "language": "Python",
     "pushed_at": "2026-09-14T08:59:49Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -3601,7 +3601,7 @@
     "language": "TypeScript",
     "pushed_at": "2026-09-14T08:00:42Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -3621,7 +3621,7 @@
     "language": "JavaScript",
     "pushed_at": "2026-09-14T07:55:32Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -3629,7 +3629,7 @@
     "full_name": "muratmula/ai-robinhood-chain",
     "html_url": "https://github.com/muratmula/ai-robinhood-chain",
     "description": "Autonomous multi-agent crypto intelligence & trading ecosystem for Robinhood Chain L2 (EVM #4663) operated via Discord Command Center, Terminal TUI, REST API, & Telegram",
-    "stars": 134,
+    "stars": 135,
     "forks": 963,
     "open_issues": 0,
     "topics": [
@@ -3642,7 +3642,7 @@
     "language": "TypeScript",
     "pushed_at": "2026-09-14T07:54:12Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -3678,7 +3678,7 @@
     "language": "Python",
     "pushed_at": "2026-09-14T06:32:53Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   },
   {
@@ -3701,32 +3701,7 @@
     "language": "Python",
     "pushed_at": "2026-09-14T03:24:17Z",
     "last_checked": "2026-09-21",
-    "is_new": true,
-    "first_seen": "2026-09-21"
-  },
-  {
-    "id": 1174065443,
-    "full_name": "okx/agent-skills",
-    "html_url": "https://github.com/okx/agent-skills",
-    "description": "Plug-and-play AI agent skills for OKX — letting any LLM agent trade, manage portfolios, query live market data, and run grid/DCA bots through a single okx CLI, no API wiring required.  ",
-    "stars": 177,
-    "forks": 28,
-    "open_issues": 8,
-    "topics": [
-      "ai-agent",
-      "algorithmic-trading",
-      "cli-tool",
-      "dca",
-      "grid-bot",
-      "llm",
-      "mcp",
-      "okx",
-      "skills"
-    ],
-    "language": "Shell",
-    "pushed_at": "2026-09-14T03:16:20Z",
-    "last_checked": "2026-09-21",
-    "is_new": true,
+    "is_new": false,
     "first_seen": "2026-09-21"
   }
 ]
