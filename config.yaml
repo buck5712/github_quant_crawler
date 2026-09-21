@@ -1,7 +1,8 @@
 # 篩選條件設定 — 依需求調整即可,不用改程式碼
 
 search:
-  min_stars: 50          # star 數門檻
+  min_stars: 50          # 搜尋門檻:決定候選池,要低一點才不會漏掉新專案
+  min_stars_existing: 500   # 週報門檻(既有 repo 專用):已經追蹤過的 repo 要達到這個 star 數,本週又有 push 才會再列入週報,避免每週重複洗版
   max_days_since_push: 180   # 搜尋範圍:多少天內要有 push 才納入候選(排除死掉的專案)
   weekly_window_days: 7      # 週報範圍:多少天內有 push 才會列進本次報告
 

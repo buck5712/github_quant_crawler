@@ -49,17 +49,23 @@ def build_queries(cfg: dict) -> list[str]:
     return queries
 
 
-def write_markdown_report(repos: list[dict], out_path: Path, today: str) -> None:
-    lines = [f"# GitHub 量化交易週報 — {today}", "", f"本週有 push 的 repo:共 {len(repos)} 個", ""]
+def _write_repo_section(lines: list[str], heading: str, repos: list[dict]) -> None:
+    lines.append(f"## {heading}(共 {len(repos)} 個)")
+    lines.append("")
     for r in repos:
-        tag = " 🆕" if r["is_new"] else ""
         topics = ", ".join(r["topics"]) if r["topics"] else "-"
-        lines.append(f"## [{r['full_name']}]({r['html_url']}){tag}")
+        lines.append(f"### [{r['full_name']}]({r['html_url']})")
         lines.append(f"- ⭐ {r['stars']} · 🍴 {r['forks']} · language: {r['language'] or '-'}")
         lines.append(f"- pushed: {r['pushed_at']}")
         lines.append(f"- topics: {topics}")
         lines.append(f"- {r['description'] or '(無描述)'}")
         lines.append("")
+
+
+def write_markdown_report(new_repos: list[dict], existing_repos: list[dict], out_path: Path, today: str) -> None:
+    lines = [f"# GitHub 量化交易週報 — {today}", ""]
+    _write_repo_section(lines, "🆕 新發現", new_repos)
+    _write_repo_section(lines, "🔁 既有 repo 本週更新", existing_repos)
     with open(out_path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
 
@@ -140,7 +146,11 @@ def main():
         db[repo_id] = entry
 
         pushed_at = datetime.strptime(item["pushed_at"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
-        if pushed_at >= weekly_cutoff:
+        if pushed_at < weekly_cutoff:
+            continue
+        # 新發現的 repo 一律列入(已經通過搜尋門檻 min_stars);
+        # 既有 repo 要達到更高的 min_stars_existing 門檻,才會再次列入週報,避免每週重複洗版。
+        if entry["is_new"] or entry["stars"] >= cfg.get("min_stars_existing", cfg["min_stars"]):
             weekly_pushed.append(entry)
 
     DATA_DIR.mkdir(exist_ok=True)
@@ -148,13 +158,19 @@ def main():
         json.dump(db, f, ensure_ascii=False, indent=2, sort_keys=True)
 
     if weekly_pushed:
-        weekly_pushed.sort(key=lambda r: r["pushed_at"], reverse=True)
+        weekly_pushed.sort(key=lambda r: r["stars"], reverse=True)
+        new_repos = [r for r in weekly_pushed if r["is_new"]]
+        existing_repos = [r for r in weekly_pushed if not r["is_new"]]
+
         json_path = DATA_DIR / f"weekly_pushed_{today}.json"
         with open(json_path, "w", encoding="utf-8") as f:
             json.dump(weekly_pushed, f, ensure_ascii=False, indent=2)
         md_path = DATA_DIR / f"weekly_pushed_{today}.md"
-        write_markdown_report(weekly_pushed, md_path, today)
-        print(f"本週有 push 的 repo 共 {len(weekly_pushed)} 個,已存到 {json_path.name} / {md_path.name}")
+        write_markdown_report(new_repos, existing_repos, md_path, today)
+        print(
+            f"本週週報:新發現 {len(new_repos)} 個、既有更新 {len(existing_repos)} 個,"
+            f"已存到 {json_path.name} / {md_path.name}"
+        )
     else:
         print("本週沒有任何符合條件的 repo 有 push")
 

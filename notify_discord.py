@@ -1,6 +1,6 @@
 """
 讀取 crawler.py 產出的 data/weekly_pushed_<date>.json,
-組成 Discord 訊息(前 5 名 star 數的 repo 用 embed 顯示,完整清單用附件 .md 檔),
+組成 Discord 訊息(本次新發現的 repo 用 embed 詳列,完整清單含既有 repo 更新用附件 .md 檔),
 推播到 DISCORD_WEBHOOK_URL 指定的 webhook。
 """
 
@@ -13,7 +13,7 @@ import requests
 ROOT = Path(__file__).parent
 DATA_DIR = ROOT / "data"
 
-TOP_N = 5
+MAX_EMBEDS = 10  # Discord 一則訊息最多 10 個 embed
 
 
 def latest_weekly_files():
@@ -58,15 +58,25 @@ def main():
         print("本週沒有符合條件的 repo,略過通知")
         return
 
-    new_count = sum(1 for r in repos if r.get("is_new"))
-    top_repos = sorted(repos, key=lambda r: r["stars"], reverse=True)[:TOP_N]
+    new_repos = sorted((r for r in repos if r.get("is_new")), key=lambda r: r["stars"], reverse=True)
+    existing_repos = [r for r in repos if not r.get("is_new")]
 
-    content = (
-        f"📊 **GitHub 量化交易週報 — {date_str}**\n"
-        f"本週有 push 的 repo:**{len(repos)}** 個(其中 **{new_count}** 個是本次新發現)\n"
-        f"完整清單請看附件,以下是 star 數最高的前 {len(top_repos)} 名:"
-    )
-    payload = {"content": content, "embeds": [build_embed(r) for r in top_repos]}
+    if new_repos:
+        content = (
+            f"📊 **GitHub 量化交易週報 — {date_str}**\n"
+            f"🆕 本次新發現 **{len(new_repos)}** 個 repo(下方詳列)\n"
+            f"🔁 另有 **{len(existing_repos)}** 個既有 repo 本週有更新,完整清單請看附件"
+        )
+        embed_repos = new_repos[:MAX_EMBEDS]
+    else:
+        content = (
+            f"📊 **GitHub 量化交易週報 — {date_str}**\n"
+            f"🆕 本次沒有新發現的 repo\n"
+            f"🔁 有 **{len(existing_repos)}** 個既有 repo 本週有更新,完整清單請看附件"
+        )
+        embed_repos = []
+
+    payload = {"content": content, "embeds": [build_embed(r) for r in embed_repos]}
 
     if md_path:
         with open(md_path, "rb") as f:
