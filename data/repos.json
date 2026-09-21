@@ -71,7 +71,7 @@
     "language": "Jupyter Notebook",
     "last_checked": "2026-09-21",
     "open_issues": 2,
-    "pushed_at": "2026-09-21T03:12:52Z",
+    "pushed_at": "2026-09-21T06:20:17Z",
     "stars": 261,
     "topics": [
       "algorithmic-trading",
@@ -117,7 +117,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 0,
     "pushed_at": "2026-07-06T18:56:42Z",
-    "stars": 592,
+    "stars": 593,
     "topics": [
       "ai-trading",
       "automated-trading",
@@ -657,7 +657,7 @@
     "language": "TypeScript",
     "last_checked": "2026-09-21",
     "open_issues": 0,
-    "pushed_at": "2026-09-20T20:03:17Z",
+    "pushed_at": "2026-09-21T05:33:12Z",
     "stars": 86,
     "topics": [
       "algotrading",
@@ -737,7 +737,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 139,
     "pushed_at": "2026-09-17T20:38:03Z",
-    "stars": 9138,
+    "stars": 9140,
     "topics": [
       "algorithmic-trading",
       "algorithmic-traiding",
@@ -877,7 +877,7 @@
   "1115093974": {
     "description": "为前端设计的无需 Python、无需后端服务、零依赖的获取股票数据 JavaScript SDK。",
     "first_seen": "2026-09-21",
-    "forks": 187,
+    "forks": 188,
     "full_name": "chengzuopeng/stock-sdk",
     "html_url": "https://github.com/chengzuopeng/stock-sdk",
     "id": 1115093974,
@@ -913,7 +913,7 @@
   "1124295269": {
     "description": "Open-source AI Trading OS, agent trading, and vibe trading, with Jev System One integration. Research, build Python strategies, backtest, and paper/live trade across crypto, stocks, and forex. Launch your own multi-tenant trading SaaS with built-in user management, billing, payments, and settlement.",
     "first_seen": "2026-09-21",
-    "forks": 2449,
+    "forks": 2450,
     "full_name": "OpenByteInc/QuantDinger",
     "html_url": "https://github.com/OpenByteInc/QuantDinger",
     "id": 1124295269,
@@ -921,8 +921,8 @@
     "language": "Python",
     "last_checked": "2026-09-21",
     "open_issues": 41,
-    "pushed_at": "2026-09-20T14:00:00Z",
-    "stars": 11846,
+    "pushed_at": "2026-09-21T06:10:48Z",
+    "stars": 11861,
     "topics": [
       "agent",
       "alpaca",
@@ -1068,7 +1068,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 1,
     "pushed_at": "2026-06-12T11:57:51Z",
-    "stars": 3144,
+    "stars": 3145,
     "topics": [
       "deep-learning",
       "finance",
@@ -1083,7 +1083,7 @@
   "1131513930": {
     "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
     "first_seen": "2026-09-21",
-    "forks": 54690,
+    "forks": 54695,
     "full_name": "ZhuLinsen/daily_stock_analysis",
     "html_url": "https://github.com/ZhuLinsen/daily_stock_analysis",
     "id": 1131513930,
@@ -1092,7 +1092,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 46,
     "pushed_at": "2026-09-19T15:09:08Z",
-    "stars": 65383,
+    "stars": 65392,
     "topics": [
       "a-stock",
       "ai-agent",
@@ -1113,9 +1113,9 @@
     "is_new": false,
     "language": "Python",
     "last_checked": "2026-09-21",
-    "open_issues": 62,
-    "pushed_at": "2026-09-20T15:32:22Z",
-    "stars": 1087,
+    "open_issues": 61,
+    "pushed_at": "2026-09-21T03:59:53Z",
+    "stars": 1090,
     "topics": [
       "a-share",
       "agent",
@@ -1142,7 +1142,7 @@
   "1142556666": {
     "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans    for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
     "first_seen": "2026-09-21",
-    "forks": 342,
+    "forks": 344,
     "full_name": "alsk1992/CloddsBot",
     "html_url": "https://github.com/alsk1992/CloddsBot",
     "id": 1142556666,
@@ -1151,7 +1151,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 32,
     "pushed_at": "2026-09-18T19:38:27Z",
-    "stars": 2812,
+    "stars": 2813,
     "topics": [
       "agi",
       "ai",
@@ -1357,7 +1357,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 3,
     "pushed_at": "2026-09-01T03:10:42Z",
-    "stars": 359,
+    "stars": 360,
     "topics": [
       "ai-quant",
       "algorithmic-trading",
@@ -1639,7 +1639,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 12,
     "pushed_at": "2026-09-08T16:42:47Z",
-    "stars": 5497,
+    "stars": 5498,
     "topics": [
       "bitcoin",
       "cryptocurrency",
@@ -1738,7 +1738,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 5,
     "pushed_at": "2026-05-20T10:14:08Z",
-    "stars": 473,
+    "stars": 472,
     "topics": [
       "a-shares",
       "ai-agent",
@@ -1804,7 +1804,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 10,
     "pushed_at": "2026-09-13T08:29:26Z",
-    "stars": 591,
+    "stars": 592,
     "topics": [
       "a-share",
       "china-stock",
@@ -1844,7 +1844,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 1,
     "pushed_at": "2026-06-21T15:17:56Z",
-    "stars": 72,
+    "stars": 73,
     "topics": [
       "backtesting",
       "quant",
@@ -1900,16 +1900,16 @@
   "1198306812": {
     "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
     "first_seen": "2026-09-21",
-    "forks": 5505,
+    "forks": 5507,
     "full_name": "HKUDS/Vibe-Trading",
     "html_url": "https://github.com/HKUDS/Vibe-Trading",
     "id": 1198306812,
     "is_new": false,
     "language": "Python",
     "last_checked": "2026-09-21",
-    "open_issues": 55,
+    "open_issues": 57,
     "pushed_at": "2026-09-19T17:10:12Z",
-    "stars": 33740,
+    "stars": 33748,
     "topics": [
       "ai-agent",
       "algorithmic-trading",
@@ -2152,7 +2152,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 1,
     "pushed_at": "2026-04-17T21:15:24Z",
-    "stars": 94,
+    "stars": 98,
     "topics": []
   },
   "1214061488": {
@@ -2166,7 +2166,7 @@
     "language": "HTML",
     "last_checked": "2026-09-21",
     "open_issues": 0,
-    "pushed_at": "2026-09-21T03:15:44Z",
+    "pushed_at": "2026-09-21T05:08:19Z",
     "stars": 334,
     "topics": [
       "agentic-ai",
@@ -2369,7 +2369,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 18,
     "pushed_at": "2026-07-24T17:18:19Z",
-    "stars": 50,
+    "stars": 51,
     "topics": [
       "a-share",
       "algorithmic-trading",
@@ -2418,7 +2418,7 @@
   "122682362": {
     "description": "Free open source crypto trading bot to automate AI, Grid, DCA and TradingView strategies on Binance, Hyperliquid and 15+ exchanges, with a simple interface.",
     "first_seen": "2026-09-21",
-    "forks": 1276,
+    "forks": 1275,
     "full_name": "Drakkar-Software/OctoBot",
     "html_url": "https://github.com/Drakkar-Software/OctoBot",
     "id": 122682362,
@@ -2477,8 +2477,8 @@
     "is_new": false,
     "language": "C++",
     "last_checked": "2026-09-21",
-    "open_issues": 6,
-    "pushed_at": "2026-09-21T02:44:24Z",
+    "open_issues": 5,
+    "pushed_at": "2026-09-21T03:24:13Z",
     "stars": 186,
     "topics": [
       "algorithmic-trading",
@@ -2554,7 +2554,7 @@
     "is_new": false,
     "language": "HTML",
     "last_checked": "2026-09-21",
-    "open_issues": 1,
+    "open_issues": 0,
     "pushed_at": "2026-09-08T03:25:17Z",
     "stars": 2671,
     "topics": [
@@ -2577,7 +2577,7 @@
   "1235056479": {
     "description": "A股全栈数据工具包：行情K线·研报·信号·资金面·新闻·财务·公告·打板·ETF期权·舆情·宏观利率·指数日历·期货大宗·事件驱动·可转债 | 15层·85端点·34数据源·除iwencai外免Key | A-share data for AI agents: K-lines, reports, signals, fund flow, news, financials, filings, limit-up, ETF options, sentiment, macro/rates, index, futures/commodities, events, convertibles | 15 layers·85 endpoints·34 sources·no key except iwencai",
     "first_seen": "2026-09-21",
-    "forks": 1819,
+    "forks": 1820,
     "full_name": "simonlin1212/a-stock-data",
     "html_url": "https://github.com/simonlin1212/a-stock-data",
     "id": 1235056479,
@@ -2586,7 +2586,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 0,
     "pushed_at": "2026-09-20T00:36:31Z",
-    "stars": 9995,
+    "stars": 10002,
     "topics": [
       "a-share",
       "ai-agent",
@@ -2616,7 +2616,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 0,
     "pushed_at": "2026-09-21T00:30:21Z",
-    "stars": 3389,
+    "stars": 3390,
     "topics": [
       "a-share",
       "ai-agent",
@@ -2707,7 +2707,7 @@
     "is_new": false,
     "language": "Python",
     "last_checked": "2026-09-21",
-    "open_issues": 6,
+    "open_issues": 7,
     "pushed_at": "2026-08-02T03:17:50Z",
     "stars": 257,
     "topics": [
@@ -2871,16 +2871,16 @@
   "1263497845": {
     "description": "同花顺官方 A股金融数据服务，提供股票实时行情、历史行情、财务报表、指数、板块、涨停等数据，适用于 AI Agent、量化研究和应用开发，支持 API、MCP、CLI 和 Python。Official Tonghuashun (HiThink) A-share financial data service providing real-time and historical stock market data, financial statements, indices, sectors and limit-up data for AI agents, quantitative research and application development.",
     "first_seen": "2026-09-21",
-    "forks": 323,
+    "forks": 322,
     "full_name": "HiThink-Tech/Financial-API",
     "html_url": "https://github.com/HiThink-Tech/Financial-API",
     "id": 1263497845,
     "is_new": false,
     "language": "TypeScript",
     "last_checked": "2026-09-21",
-    "open_issues": 40,
+    "open_issues": 39,
     "pushed_at": "2026-09-15T13:44:11Z",
-    "stars": 3684,
+    "stars": 3688,
     "topics": [
       "a-share",
       "ai-agent",
@@ -2906,7 +2906,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 8,
     "pushed_at": "2026-09-02T03:05:39Z",
-    "stars": 725,
+    "stars": 726,
     "topics": [
       "ai",
       "ai-quant",
@@ -2959,8 +2959,8 @@
     "language": "Python",
     "last_checked": "2026-09-21",
     "open_issues": 12,
-    "pushed_at": "2026-09-20T23:42:43Z",
-    "stars": 4844,
+    "pushed_at": "2026-09-21T05:46:39Z",
+    "stars": 4845,
     "topics": [
       "a-stock",
       "ai-agent",
@@ -3068,7 +3068,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 0,
     "pushed_at": "2026-06-20T12:16:37Z",
-    "stars": 10754,
+    "stars": 10755,
     "topics": [
       "algorithmic-trading",
       "bollinger-bands",
@@ -3095,15 +3095,15 @@
   "1280164540": {
     "description": "High-performance quantitative finance library in Rust: pricing, risk, and numerical tools built for speed and safety.",
     "first_seen": "2026-09-21",
-    "forks": 4,
+    "forks": 3,
     "full_name": "benbenbang/libitofin",
     "html_url": "https://github.com/benbenbang/libitofin",
     "id": 1280164540,
     "is_new": false,
     "language": "Rust",
     "last_checked": "2026-09-21",
-    "open_issues": 34,
-    "pushed_at": "2026-09-21T02:56:32Z",
+    "open_issues": 31,
+    "pushed_at": "2026-09-21T04:54:12Z",
     "stars": 57,
     "topics": [
       "finance",
@@ -3128,7 +3128,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 0,
     "pushed_at": "2026-07-22T08:26:31Z",
-    "stars": 406,
+    "stars": 408,
     "topics": [
       "algorithmic-trading",
       "anti-fraud",
@@ -3160,7 +3160,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 2,
     "pushed_at": "2026-09-19T22:08:08Z",
-    "stars": 269,
+    "stars": 270,
     "topics": [
       "a-shares",
       "ai-agent",
@@ -3195,7 +3195,7 @@
     "language": "HTML",
     "last_checked": "2026-09-21",
     "open_issues": 0,
-    "pushed_at": "2026-09-20T23:59:00Z",
+    "pushed_at": "2026-09-21T04:45:04Z",
     "stars": 117,
     "topics": [
       "github",
@@ -3218,7 +3218,7 @@
     "language": "HTML",
     "last_checked": "2026-09-21",
     "open_issues": 0,
-    "pushed_at": "2026-09-21T00:40:52Z",
+    "pushed_at": "2026-09-21T05:41:47Z",
     "stars": 122,
     "topics": [
       "automated-trading",
@@ -3253,7 +3253,7 @@
     "language": "HTML",
     "last_checked": "2026-09-21",
     "open_issues": 1,
-    "pushed_at": "2026-09-20T23:58:45Z",
+    "pushed_at": "2026-09-21T04:44:21Z",
     "stars": 123,
     "topics": [
       "agentic",
@@ -3448,7 +3448,7 @@
   "132754148": {
     "description": "Code for Machine Learning for Trading, 3rd edition — from data sourcing to live execution.",
     "first_seen": "2026-09-21",
-    "forks": 5627,
+    "forks": 5629,
     "full_name": "stefan-jansen/machine-learning-for-trading",
     "html_url": "https://github.com/stefan-jansen/machine-learning-for-trading",
     "id": 132754148,
@@ -3457,7 +3457,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 1,
     "pushed_at": "2026-09-21T00:32:30Z",
-    "stars": 20952,
+    "stars": 20955,
     "topics": [
       "algorithmic-trading",
       "artificial-intelligence",
@@ -3491,7 +3491,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 22,
     "pushed_at": "2026-09-21T02:51:49Z",
-    "stars": 538,
+    "stars": 541,
     "topics": [
       "ai-agents",
       "ai-hedge-fund",
@@ -3608,8 +3608,8 @@
     "language": "HTML",
     "last_checked": "2026-09-21",
     "open_issues": 6,
-    "pushed_at": "2026-09-21T02:27:04Z",
-    "stars": 216,
+    "pushed_at": "2026-09-21T05:22:59Z",
+    "stars": 215,
     "topics": [
       "a-share",
       "ai-agent",
@@ -3666,7 +3666,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 4,
     "pushed_at": "2026-09-13T09:11:07Z",
-    "stars": 598,
+    "stars": 603,
     "topics": [
       "autonomous-agents",
       "codex-app-server",
@@ -3694,7 +3694,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 1,
     "pushed_at": "2026-09-20T05:23:37Z",
-    "stars": 220,
+    "stars": 221,
     "topics": [
       "bloomberg-terminal",
       "crypto-trading",
@@ -3748,7 +3748,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 0,
     "pushed_at": "2026-09-20T13:28:04Z",
-    "stars": 232,
+    "stars": 233,
     "topics": [
       "alpha-research",
       "backtesting",
@@ -3801,7 +3801,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 0,
     "pushed_at": "2026-09-17T12:47:25Z",
-    "stars": 225,
+    "stars": 226,
     "topics": [
       "backtesting",
       "binance",
@@ -3940,7 +3940,7 @@
   "150290884": {
     "description": "Cryptocurrency trading bot in javascript for Bitfinex, Bitmex, Binance, Bybit ... (public edition)",
     "first_seen": "2026-09-21",
-    "forks": 1020,
+    "forks": 1021,
     "full_name": "Haehnchen/crypto-trading-bot",
     "html_url": "https://github.com/Haehnchen/crypto-trading-bot",
     "id": 150290884,
@@ -4013,7 +4013,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 16,
     "pushed_at": "2026-09-17T16:19:01Z",
-    "stars": 8559,
+    "stars": 8561,
     "topics": [
       "algo-trading",
       "algorithmic-trading",
@@ -4122,7 +4122,7 @@
   "161840815": {
     "description": "Python toolkit for quantitative finance",
     "first_seen": "2026-09-21",
-    "forks": 1753,
+    "forks": 1754,
     "full_name": "goldmansachs/gs-quant",
     "html_url": "https://github.com/goldmansachs/gs-quant",
     "id": 161840815,
@@ -4152,7 +4152,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 83,
     "pushed_at": "2026-08-05T12:39:16Z",
-    "stars": 8977,
+    "stars": 8978,
     "topics": [
       "algo-trading",
       "algorithmic-trading",
@@ -4214,9 +4214,9 @@
     "is_new": false,
     "language": "Python",
     "last_checked": "2026-09-21",
-    "open_issues": 163,
+    "open_issues": 164,
     "pushed_at": "2026-09-20T12:13:41Z",
-    "stars": 20110,
+    "stars": 20114,
     "topics": [
       "ai-agents",
       "algotrading",
@@ -4251,7 +4251,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 22,
     "pushed_at": "2026-07-01T09:42:05Z",
-    "stars": 4309,
+    "stars": 4310,
     "topics": [
       "algorithmic-trading",
       "backtesting",
@@ -4439,8 +4439,8 @@
     "language": "Java",
     "last_checked": "2026-09-21",
     "open_issues": 959,
-    "pushed_at": "2026-09-21T00:56:39Z",
-    "stars": 17332,
+    "pushed_at": "2026-09-21T04:17:36Z",
+    "stars": 17334,
     "topics": [
       "apache-arrow",
       "capital-markets",
@@ -4596,8 +4596,8 @@
     "language": "JavaScript",
     "last_checked": "2026-09-21",
     "open_issues": 112,
-    "pushed_at": "2026-09-20T03:34:13Z",
-    "stars": 5659,
+    "pushed_at": "2026-09-21T03:37:26Z",
+    "stars": 5660,
     "topics": [
       "algorithmic-trading",
       "algotrading",
@@ -5041,8 +5041,8 @@
     "is_new": false,
     "language": "Go",
     "last_checked": "2026-09-21",
-    "open_issues": 73,
-    "pushed_at": "2026-09-18T06:19:34Z",
+    "open_issues": 76,
+    "pushed_at": "2026-09-21T05:52:31Z",
     "stars": 3456,
     "topics": [
       "algorithmic-trading",
@@ -5174,7 +5174,7 @@
   "27251463": {
     "description": "Lean Algorithmic Trading Engine by QuantConnect (Python, C#)",
     "first_seen": "2026-09-21",
-    "forks": 5253,
+    "forks": 5254,
     "full_name": "QuantConnect/Lean",
     "html_url": "https://github.com/QuantConnect/Lean",
     "id": 27251463,
@@ -5183,7 +5183,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 254,
     "pushed_at": "2026-09-18T22:51:33Z",
-    "stars": 21706,
+    "stars": 21708,
     "topics": [
       "algorithm",
       "algorithmic-trading-engine",
@@ -5286,7 +5286,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 10,
     "pushed_at": "2026-09-03T06:50:01Z",
-    "stars": 6201,
+    "stars": 6202,
     "topics": [
       "quant",
       "quantitative-finance",
@@ -5342,7 +5342,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 312,
     "pushed_at": "2026-07-13T23:02:18Z",
-    "stars": 16358,
+    "stars": 16362,
     "topics": [
       "algorithmic-trading",
       "deep-reinforcement-learning",
@@ -5426,7 +5426,7 @@
   "287463830": {
     "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
     "first_seen": "2026-09-21",
-    "forks": 7709,
+    "forks": 7710,
     "full_name": "microsoft/qlib",
     "html_url": "https://github.com/microsoft/qlib",
     "id": 287463830,
@@ -5435,7 +5435,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 480,
     "pushed_at": "2026-09-17T16:40:12Z",
-    "stars": 48696,
+    "stars": 48700,
     "topics": [
       "algorithmic-trading",
       "auto-quant",
@@ -5502,7 +5502,7 @@
     "language": "Python",
     "last_checked": "2026-09-21",
     "open_issues": 90,
-    "pushed_at": "2026-09-21T02:34:18Z",
+    "pushed_at": "2026-09-21T06:09:41Z",
     "stars": 2077,
     "topics": [
       "ai-agents",
@@ -5683,7 +5683,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 2,
     "pushed_at": "2026-09-16T14:53:55Z",
-    "stars": 2729,
+    "stars": 2730,
     "topics": [
       "bot",
       "buying-shares",
@@ -5740,8 +5740,8 @@
     "is_new": false,
     "language": "Python",
     "last_checked": "2026-09-21",
-    "open_issues": 81,
-    "pushed_at": "2026-09-21T01:51:42Z",
+    "open_issues": 84,
+    "pushed_at": "2026-09-21T06:15:56Z",
     "stars": 2106,
     "topics": [
       "algorithmic-trading",
@@ -5759,7 +5759,7 @@
   "323048702": {
     "description": "Open Data Platform for analysts, quants and AI agents.",
     "first_seen": "2026-09-21",
-    "forks": 7588,
+    "forks": 7586,
     "full_name": "OpenBB-finance/OpenBB",
     "html_url": "https://github.com/OpenBB-finance/OpenBB",
     "id": 323048702,
@@ -5768,7 +5768,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 114,
     "pushed_at": "2026-09-19T21:44:06Z",
-    "stars": 73316,
+    "stars": 73323,
     "topics": [
       "ai",
       "crypto",
@@ -5847,7 +5847,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 103,
     "pushed_at": "2026-06-23T00:52:57Z",
-    "stars": 5098,
+    "stars": 5100,
     "topics": [
       "backtesting",
       "backtesting-trading-strategies",
@@ -6344,16 +6344,16 @@
   "43425480": {
     "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
     "first_seen": "2026-09-21",
-    "forks": 4017,
+    "forks": 4019,
     "full_name": "wilsonfreitas/awesome-quant",
     "html_url": "https://github.com/wilsonfreitas/awesome-quant",
     "id": 43425480,
     "is_new": false,
     "language": "HTML",
     "last_checked": "2026-09-21",
-    "open_issues": 72,
+    "open_issues": 73,
     "pushed_at": "2026-09-21T01:20:29Z",
-    "stars": 29671,
+    "stars": 29673,
     "topics": [
       "algorithmic-trading-engine",
       "algorithmic-trading-library",
@@ -6425,7 +6425,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 17,
     "pushed_at": "2026-08-30T20:58:30Z",
-    "stars": 5153,
+    "stars": 5155,
     "topics": [
       "algorithmic-trading",
       "alpha",
@@ -6518,7 +6518,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 7,
     "pushed_at": "2026-09-03T09:13:55Z",
-    "stars": 14365,
+    "stars": 14367,
     "topics": [
       "algorithmic-trading",
       "algotrading",
@@ -6634,7 +6634,7 @@
     "is_new": false,
     "language": "C++",
     "last_checked": "2026-09-21",
-    "open_issues": 47,
+    "open_issues": 48,
     "pushed_at": "2026-09-18T14:59:44Z",
     "stars": 7625,
     "topics": [
@@ -6745,7 +6745,7 @@
   "501843211": {
     "description": "股票AI操盘手：从学习、模拟到实盘，一站式平台。包含股票知识、策略实例、大模型、因子挖掘、传统策略、机器学习、深度学习、强化学习、图网络、高频交易、C++部署和聚宽实例代码等，可以方便学习、模拟及实盘交易",
     "first_seen": "2026-09-21",
-    "forks": 1229,
+    "forks": 1230,
     "full_name": "charliedream1/ai_quant_trade",
     "html_url": "https://github.com/charliedream1/ai_quant_trade",
     "id": 501843211,
@@ -6754,7 +6754,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 10,
     "pushed_at": "2026-09-06T14:57:06Z",
-    "stars": 6549,
+    "stars": 6551,
     "topics": [
       "cpp",
       "jupyter-notebook",
@@ -6962,7 +6962,7 @@
     "is_new": false,
     "language": "Python",
     "last_checked": "2026-09-21",
-    "open_issues": 1,
+    "open_issues": 0,
     "pushed_at": "2026-09-20T17:32:46Z",
     "stars": 68,
     "topics": [
@@ -6993,7 +6993,7 @@
     "is_new": false,
     "language": "C++",
     "last_checked": "2026-09-21",
-    "open_issues": 337,
+    "open_issues": 338,
     "pushed_at": "2026-09-21T00:11:34Z",
     "stars": 2516,
     "topics": [
@@ -7064,7 +7064,7 @@
     "language": "Python",
     "last_checked": "2026-09-21",
     "open_issues": 2,
-    "pushed_at": "2026-09-20T20:07:36Z",
+    "pushed_at": "2026-09-21T05:55:03Z",
     "stars": 634,
     "topics": [
       "asset-management",
@@ -7332,7 +7332,7 @@
   "616738094": {
     "description": "stock股票.获取股票数据,计算股票指标,筹码分布,识别股票形态,综合选股,选股策略,股票验证回测,股票自动交易,支持PC及移动设备。",
     "first_seen": "2026-09-21",
-    "forks": 2970,
+    "forks": 2972,
     "full_name": "myhhub/stock",
     "html_url": "https://github.com/myhhub/stock",
     "id": 616738094,
@@ -7341,7 +7341,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 11,
     "pushed_at": "2026-04-02T02:26:35Z",
-    "stars": 14481,
+    "stars": 14490,
     "topics": [
       "backtest",
       "backtesting",
@@ -7556,7 +7556,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 4,
     "pushed_at": "2026-09-20T23:10:53Z",
-    "stars": 1759,
+    "stars": 1760,
     "topics": [
       "agent",
       "ai4fin",
@@ -7607,8 +7607,8 @@
     "is_new": false,
     "language": "Shell",
     "last_checked": "2026-09-21",
-    "open_issues": 9,
-    "pushed_at": "2026-09-18T09:52:02Z",
+    "open_issues": 11,
+    "pushed_at": "2026-09-21T04:34:17Z",
     "stars": 247,
     "topics": [
       "ai",
@@ -7678,7 +7678,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 0,
     "pushed_at": "2026-09-19T04:25:48Z",
-    "stars": 3955,
+    "stars": 3958,
     "topics": [
       "algorithmic-trading",
       "hedgefund",
@@ -7764,7 +7764,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 42,
     "pushed_at": "2026-09-20T14:42:11Z",
-    "stars": 2420,
+    "stars": 2421,
     "topics": [
       "asset-allocation",
       "asset-management",
@@ -7909,7 +7909,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 317,
     "pushed_at": "2026-09-20T19:12:05Z",
-    "stars": 2704,
+    "stars": 2705,
     "topics": [
       "ai-agents",
       "algorithmic-trading",
@@ -8319,7 +8319,7 @@
   "849406496": {
     "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
     "first_seen": "2026-09-21",
-    "forks": 4520,
+    "forks": 4521,
     "full_name": "Fincept-Corporation/FinceptTerminal",
     "html_url": "https://github.com/Fincept-Corporation/FinceptTerminal",
     "id": 849406496,
@@ -8328,7 +8328,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 9,
     "pushed_at": "2026-09-19T12:41:43Z",
-    "stars": 31861,
+    "stars": 31862,
     "topics": [
       "ai-agents",
       "algorithmic-trading",
@@ -8633,7 +8633,7 @@
     "language": "Python",
     "last_checked": "2026-09-21",
     "open_issues": 0,
-    "pushed_at": "2026-09-21T02:16:44Z",
+    "pushed_at": "2026-09-21T04:25:54Z",
     "stars": 184,
     "topics": [
       "algorithmic-trading",
@@ -8685,7 +8685,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 21,
     "pushed_at": "2026-04-16T10:50:54Z",
-    "stars": 4230,
+    "stars": 4231,
     "topics": [
       "quantitative-finance",
       "quantitative-trading",
@@ -8695,16 +8695,16 @@
   "91629816": {
     "description": "Free, open source crypto trading bot",
     "first_seen": "2026-09-21",
-    "forks": 11324,
+    "forks": 11325,
     "full_name": "freqtrade/freqtrade",
     "html_url": "https://github.com/freqtrade/freqtrade",
     "id": 91629816,
     "is_new": false,
     "language": "Python",
     "last_checked": "2026-09-21",
-    "open_issues": 43,
-    "pushed_at": "2026-09-21T03:03:56Z",
-    "stars": 54613,
+    "open_issues": 30,
+    "pushed_at": "2026-09-21T05:44:59Z",
+    "stars": 54620,
     "topics": [
       "algorithmic-trading",
       "bitcoin",
@@ -9068,7 +9068,7 @@
   "991774915": {
     "description": "Rust SDK for low-latency Solana DEX trading bots with PumpFun, PumpSwap, Bonk, Raydium, Meteora, Jito, and SWQoS submit lanes.",
     "first_seen": "2026-09-21",
-    "forks": 153,
+    "forks": 154,
     "full_name": "0xfnzero/sol-trade-sdk",
     "html_url": "https://github.com/0xfnzero/sol-trade-sdk",
     "id": 991774915,
@@ -9149,7 +9149,7 @@
     "last_checked": "2026-09-21",
     "open_issues": 23,
     "pushed_at": "2026-09-15T14:13:25Z",
-    "stars": 977,
+    "stars": 978,
     "topics": [
       "ai-trading",
       "algorithmic-trading",
