@@ -2,7 +2,8 @@
 
 search:
   min_stars: 50          # star 數門檻
-  max_days_since_push: 180   # 最近活躍度:多少天內要有 push 才算活躍
+  max_days_since_push: 180   # 搜尋範圍:多少天內要有 push 才納入候選(排除死掉的專案)
+  weekly_window_days: 7      # 週報範圍:多少天內有 push 才會列進本次報告
 
   # topics 比對(GitHub repo 上標的 topic 標籤)
   topics:

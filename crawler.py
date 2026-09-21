@@ -3,8 +3,8 @@ GitHub 量化交易相關 repo 爬蟲。
 
 依 config.yaml 設定的 topics / 關鍵字 / star 門檻 / 活躍度,
 透過 GitHub Search API 找出符合條件的 repo,結果累積存到 data/repos.json,
-並把本次新發現的 repo 另外存一份到 data/new_repos_<date>.json,
-方便之後接 Discord / Teams 通知使用。
+並把「這週(weekly_window_days 天內)有 push」的 repo 另外存一份到
+data/weekly_pushed_<date>.json,方便之後接 Discord / Teams 通知使用。
 """
 
 import json
@@ -47,6 +47,21 @@ def build_queries(cfg: dict) -> list[str]:
     for kw in cfg.get("keywords", []):
         queries.append(f'"{kw}" in:name,description stars:>={min_stars} pushed:>={cutoff}')
     return queries
+
+
+def write_markdown_report(repos: list[dict], out_path: Path, today: str) -> None:
+    lines = [f"# GitHub 量化交易週報 — {today}", "", f"本週有 push 的 repo:共 {len(repos)} 個", ""]
+    for r in repos:
+        tag = " 🆕" if r["is_new"] else ""
+        topics = ", ".join(r["topics"]) if r["topics"] else "-"
+        lines.append(f"## [{r['full_name']}]({r['html_url']}){tag}")
+        lines.append(f"- ⭐ {r['stars']} · 🍴 {r['forks']} · language: {r['language'] or '-'}")
+        lines.append(f"- pushed: {r['pushed_at']}")
+        lines.append(f"- topics: {topics}")
+        lines.append(f"- {r['description'] or '(無描述)'}")
+        lines.append("")
+    with open(out_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
 
 
 def search_github(query: str, token: str, per_page: int, max_pages: int) -> list[dict]:
@@ -101,8 +116,10 @@ def main():
         time.sleep(2)
 
     db = load_existing_db()
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    new_repos = []
+    now = datetime.now(timezone.utc)
+    today = now.strftime("%Y-%m-%d")
+    weekly_cutoff = now - timedelta(days=cfg.get("weekly_window_days", 7))
+    weekly_pushed = []
 
     for repo_id, item in found.items():
         entry = {
@@ -118,25 +135,28 @@ def main():
             "pushed_at": item["pushed_at"],
             "last_checked": today,
         }
-        if repo_id not in db:
-            entry["first_seen"] = today
-            new_repos.append(entry)
-        else:
-            entry["first_seen"] = db[repo_id].get("first_seen", today)
+        entry["is_new"] = repo_id not in db
+        entry["first_seen"] = db[repo_id]["first_seen"] if repo_id in db else today
         db[repo_id] = entry
+
+        pushed_at = datetime.strptime(item["pushed_at"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+        if pushed_at >= weekly_cutoff:
+            weekly_pushed.append(entry)
 
     DATA_DIR.mkdir(exist_ok=True)
     with open(REPOS_DB, "w", encoding="utf-8") as f:
         json.dump(db, f, ensure_ascii=False, indent=2, sort_keys=True)
 
-    if new_repos:
-        new_repos.sort(key=lambda r: r["stars"], reverse=True)
-        out_path = DATA_DIR / f"new_repos_{today}.json"
-        with open(out_path, "w", encoding="utf-8") as f:
-            json.dump(new_repos, f, ensure_ascii=False, indent=2)
-        print(f"本次新發現 {len(new_repos)} 個 repo,已存到 {out_path.name}")
+    if weekly_pushed:
+        weekly_pushed.sort(key=lambda r: r["pushed_at"], reverse=True)
+        json_path = DATA_DIR / f"weekly_pushed_{today}.json"
+        with open(json_path, "w", encoding="utf-8") as f:
+            json.dump(weekly_pushed, f, ensure_ascii=False, indent=2)
+        md_path = DATA_DIR / f"weekly_pushed_{today}.md"
+        write_markdown_report(weekly_pushed, md_path, today)
+        print(f"本週有 push 的 repo 共 {len(weekly_pushed)} 個,已存到 {json_path.name} / {md_path.name}")
     else:
-        print("本次沒有新發現的 repo")
+        print("本週沒有任何符合條件的 repo 有 push")
 
     print(f"資料庫累積共 {len(db)} 個 repo")
 
